@@ -2,7 +2,7 @@ name: Main
 on:
   push:
   schedule:
-    - cron:  '9 20 * * 1,5'
+    - cron:  '9 20 * * 3'
 jobs:
   version:
     name: "Generate _VERSION"
